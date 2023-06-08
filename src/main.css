@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&display=swap);
+
+body{
+    margin: 0px;
+
+}
+.mainDiv{
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'indie flower', cursive;
+}
+.arrowDown{
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    transition:font-size 0.5s ;
+    color: black;
+    text-align: center;
+
+}
+.arrowDown:hover{
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.backToTop{
+position: fixed; 
+bottom: 40px;
+margin: auto;
+right: 48.4%;
+
+}
+.arrowToTop{
+    font-size: 3rem;
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.backToTop:hover{
+    cursor: pointer;
+}
+
+.BackPar {
+}

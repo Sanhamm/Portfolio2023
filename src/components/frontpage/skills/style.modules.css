@@ -1,0 +1,37 @@
+
+.skillsList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+    padding: 0px;
+}
+
+.skillsList > li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 4rem;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.skillsHeading{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 4rem;
+}
+
+@media (max-width: 1000px) {
+    .skillsList > li {
+        font-size: 2rem;
+    }
+    .skillsHeading{
+        font-size: 2rem;
+    }
+    .skillsList{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    }
+    
+}

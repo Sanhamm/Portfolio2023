@@ -1,0 +1,42 @@
+.aboutHeading {
+    font-family: 'Indie Flower', cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.aboutPar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+.aboutBtn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+
+}
+.aboutBtn:hover{
+    cursor: pointer;
+    background-color: darkgrey;
+}
+
+.aboutDiv{
+    margin: 50px auto;
+    max-width: 1080px;
+}
+
+@media (max-width: 1000px) {
+    .aboutHeading{
+        font-size: 2rem;
+    }
+    .aboutPar{
+        font-size: 1rem;
+        margin: 20px 40px;
+    }
+    .aboutBtn{
+        margin: 20px 40px;
+    }
+}

@@ -1,0 +1,77 @@
+.projectName{
+    margin: 80px auto;
+}
+.myProjects{
+    max-width: 1080px;
+    margin: auto;
+}
+.projectImg{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: block;
+}
+.projectHeading{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.projectPar{
+    font-size: 1.2rem;
+    margin: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+
+}
+.projectBtn{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin: 40px;
+    border: none;
+
+}
+.projectBtn > a {
+    color: white;
+    text-decoration: none;
+}
+.btndiv{
+    max-width: 800px;
+    margin: auto;
+}
+
+@media (max-width: 900px) {
+    .projectImg{
+        height: 400px;
+    }
+}
+@media (max-width: 800px) {
+    .projectImg{
+        height: 370px;
+    }
+    .projectPar{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 700px) {
+    .projectImg{
+        height: 300px;
+    }
+}
+@media (max-width: 600px) {
+    .projectImg{
+        height: 250px;
+    }
+}
+@media (max-width: 500px) {
+    .projectImg{
+        height: 200px;
+    }
+}
+@media (max-width: 400px) {
+    .projectImg{
+        height: 150px;
+    }
+}
+
+

@@ -1,0 +1,63 @@
+.AboutHead{
+    font-size: 3rem;
+    font-family: 'indie flower', cursive;
+    text-align: center;
+
+}
+.aboutDiv{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.AboutPar{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 800px;
+    margin: auto;
+}
+.BtnDiv{
+    max-width: 800px;
+    margin: 30px auto ;
+}
+
+.Btns {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 30px;
+
+}
+.Btns:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+
+.ShowMoreBtn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.showMoreDiv{
+    max-width: 800px;
+    margin: auto;
+}
+.aStyle{
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width:800px) {
+    .aboutDiv{
+        margin: 10px;
+    }
+    .AboutPar{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    .AboutHead{
+        font-size: 1.8rem;
+    }
+}

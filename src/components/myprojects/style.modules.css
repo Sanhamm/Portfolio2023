@@ -1,0 +1,84 @@
+.projectDiv{
+    max-width: 1080px;
+    margin: auto;
+}
+.projectImg{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: block;
+
+}
+.projectHead{
+    text-align: center;
+    font-family: 'indie flower', cursive;
+    padding: 10px;
+    font-size: 3rem;
+}
+.projectPar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 800px;
+    margin: auto;
+}
+.projectBtnDiv{
+    max-width: 800px;
+    margin: 50px auto;
+    
+}
+.projectBtn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.projectBtn > a {
+    color: black;
+}
+.projectBtn:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.ShowMoreBtn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.showMoreDiv{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+@media (max-width: 900px) {
+    .projectImg{
+        height: 400px;
+    }
+}
+@media (max-width: 800px) {
+    .projectImg{
+        height: 370px;
+    }
+}
+@media (max-width: 700px) {
+    .projectImg{
+        height: 300px;
+    }
+}
+@media (max-width: 600px) {
+    .projectImg{
+        height: 250px;
+    }
+}
+@media (max-width: 500px) {
+    .projectImg{
+        height: 200px;
+    }
+}
+@media (max-width: 400px) {
+    .projectImg{
+        height: 150px;
+    }
+}
