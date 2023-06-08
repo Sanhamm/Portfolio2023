@@ -22,3 +22,31 @@
 .h1{
     font-family: 'indie flower', cursive;
 }
+.burger{
+    display: none;
+}
+.hamburgerMenu{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 60px;
+    right: 29px;
+    background-color: white;
+}
+.hamburgerMenu > a {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+text-decoration: none;
+}
+
+@media (max-width:800px) {
+    .menu{
+        display: none;
+    }
+    .burger{
+        display: block;
+        margin: auto 0px;
+        font-size: 2rem;
+    }
+}
